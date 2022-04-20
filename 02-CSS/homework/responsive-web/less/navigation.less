@@ -1,1 +1,32 @@
 // Código de Nav acá
+.header{
+    background-color: @nav-bg;
+    padding: 16px 0;
+    box-shadow:inset 0 -4px 4px -2px  @sea-shell;
+}
+
+.title{
+    text-align: center;
+}
+.nav-bar{
+    .flex-center();
+    margin-top: 16px;
+}
+.nav-link{
+    text-decoration: none;
+    color: @header-font-color;
+    font-size: 1.6rem;
+
+    & + .nav-link{
+        margin-left: 16px;
+    }
+}
+@media @phone{
+    .nav-link{
+        font-size: 12px;
+    }
+}
+img{
+    display: flex;
+    justify-content: center;
+}

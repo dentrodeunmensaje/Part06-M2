@@ -1,1 +1,24 @@
 // Mixins acá
+.flex-center(){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.radius(){
+    border-radius: 16px;
+}
+.btn-registrarse(@bg, @size){
+    font-size: @size;
+    background-color: @bg;
+    width: fit-content;
+    padding: 8px 12px;
+    color: @porcelain;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.5s, box-shadow 0.3s;
+    &:hover{
+        background-color: lighten(@bg, 25%);
+        box-shadow: 2px 2px 4px #aaa;
+    }
+    text-align: center;
+}
