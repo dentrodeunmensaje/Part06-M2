@@ -15,8 +15,8 @@ function getFriends () {
 $('#boton').on("click", getFriends);
 
   $('#search').on("click", function () {
-    $('#amigo').empty();
-    $('#input').empty();
+    $("#amigo").empty();
+    $("#input").empty();
     
     $.get(`http://localhost:5000/amigos/${$('#input').val()}`, function(data){
        
