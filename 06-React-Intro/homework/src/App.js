@@ -17,6 +17,11 @@ function App() {
           onClose={() => alert(Cairns.name)}
         />
       </div> */}
+      <div>
+        <SearchBar
+          onSearch={(ciudad) => alert(ciudad)}
+        />
+      </div>
       <hr />
       <div>
         <Cards
@@ -24,11 +29,6 @@ function App() {
         />
       </div>
       <hr />
-      <div>
-        <SearchBar
-          onSearch={(ciudad) => alert(ciudad)}
-        />
-      </div>
     </div>
   );
 }

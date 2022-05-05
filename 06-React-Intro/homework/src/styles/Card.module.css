@@ -1,0 +1,28 @@
+.btn {
+    background-color: red;
+    width: 25px;
+    border-radius: 10px;
+    margin: 5px;
+    align-self: flex-end;
+    color:antiquewhite;
+}
+.btn:hover{
+    color:red;
+    background-color: antiquewhite;
+}
+
+.middleDiv{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-content: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 250px;
+    padding: 20px;
+    
+}

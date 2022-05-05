@@ -1,0 +1,15 @@
+.container{
+    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.btn {
+    color: grey;
+    background-color: black;
+}
+.btn:hover{
+    color:black;
+    background-color: grey;
+}
