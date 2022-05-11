@@ -1,13 +1,15 @@
 .btn {
-    background-color: red;
+    background-color: rgba(238, 0, 255, 0.453);
     width: 25px;
-    border-radius: 10px;
+    height: 25px;
+    border-radius: 60%;
     margin: 5px;
     align-self: flex-end;
     color:antiquewhite;
+    border: 1px solid transparent;
 }
 .btn:hover{
-    color:red;
+    color:rgba(238, 0, 255, 0.453);
     background-color: antiquewhite;
 }
 
@@ -18,11 +20,10 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: fit-content;
     align-content: center;
-    border: 2px solid grey;
-    border-radius: 10px;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
     height: 250px;
-    padding: 20px;
-    
+    padding: 0.8rem;   
 }
